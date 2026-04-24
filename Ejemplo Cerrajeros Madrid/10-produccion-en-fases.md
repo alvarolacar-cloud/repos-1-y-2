@@ -750,3 +750,19 @@ Primero dominio local central; después expansión.
 - Reglas de expansión opcional
 - Orden de publicación recomendado
 - QA por lote
+
+---
+
+# Fuentes internas GMB Crush usadas
+
+Este paso se construyó usando como base los frameworks internos cargados en la conversación:
+
+- Analysis Framework.pdf
+- GMB CRUSH Universal AI Local SEO Framework Template
+- Website Homepage AI Optimization Prompts/Framework
+- Service Pages AI Optimization Prompts/Framework
+- Location Pages AI Optimization Prompts/Framework
+- GeoHub Pages AI Framework
+- GeoArticle Pages AI Framework
+- Additional Categories Pages AI Framework
+

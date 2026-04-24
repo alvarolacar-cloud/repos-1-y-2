@@ -824,3 +824,19 @@ El score es operativo y debe revisarse con datos.
 - Orden inicial de publicación
 - Dependencias de GeoArticles revisadas
 - Priorización basada en negocio y GBP
+
+---
+
+# Fuentes internas GMB Crush usadas
+
+Este paso se construyó usando como base los frameworks internos cargados en la conversación:
+
+- Analysis Framework.pdf
+- GMB CRUSH Universal AI Local SEO Framework Template
+- Website Homepage AI Optimization Prompts/Framework
+- Service Pages AI Optimization Prompts/Framework
+- Location Pages AI Optimization Prompts/Framework
+- GeoHub Pages AI Framework
+- GeoArticle Pages AI Framework
+- Additional Categories Pages AI Framework
+

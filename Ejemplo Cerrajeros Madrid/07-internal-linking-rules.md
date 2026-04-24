@@ -981,3 +981,19 @@ La expansión se enlaza solo cuando sus URLs existen.
 - Reglas para Local Coverage Areas sin URL
 - Reglas de expansión si existe
 - Checklist anti-páginas huérfanas
+
+---
+
+# Fuentes internas GMB Crush usadas
+
+Este paso se construyó usando como base los frameworks internos cargados en la conversación:
+
+- Analysis Framework.pdf
+- GMB CRUSH Universal AI Local SEO Framework Template
+- Website Homepage AI Optimization Prompts/Framework
+- Service Pages AI Optimization Prompts/Framework
+- Location Pages AI Optimization Prompts/Framework
+- GeoHub Pages AI Framework
+- GeoArticle Pages AI Framework
+- Additional Categories Pages AI Framework
+
