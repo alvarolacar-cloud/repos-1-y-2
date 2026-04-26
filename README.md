@@ -1,75 +1,41 @@
-# Repo 1 — GMB Crush Website Build System (Versión Original)
+# GMB Crush Website Build System
 
-Sistema completo en 12 pasos para construir una web local desde cero siguiendo la metodología GMB Crush.
+Sistema completo en 14 pasos para construir una web local desde cero siguiendo la metodología GMB Crush.
 
-## ¿Qué es este repositorio?
+---
 
-Este repositorio contiene los **12 documentos SOP originales** del sistema GMB Crush, más el documento maestro que los integra en un único flujo operativo. Estos documentos representan la versión de referencia del sistema: esquemas estructurados, fórmulas, reglas y matrices que definen la metodología completa.
+## Estructura del repositorio
 
-> **Nota:** Para la versión expandida con mayor profundidad procedimental, ejemplos detallados y plantillas de producción completas, consulta el **Repo 2 — Versión Literal del Chat**.
+Este repositorio contiene 4 carpetas, cada una con una versión o perspectiva diferente del sistema:
+
+### 01 Sistema_Vision Rapida
+
+Todos los pasos del sistema explicados de manera **resumida**. Cada paso tiene su esquema estructurado con fórmulas, reglas y matrices, pero sin ejemplos extensos ni profundidad procedimental. Es la referencia rápida del sistema: lo que necesitas para entender qué hace cada paso sin entrar en detalle.
+
+### 02 Sistema_ Ejecucion
+
+Todos los pasos **ampliados** con el ejemplo completo de **Cerrajeros Madrid 24h**. Cada paso incluye objetivo, formulario en blanco, ejemplo rellenado, cuerpo operativo con reglas, ejemplos correctos e incorrectos, checklist final y fuentes GMB Crush. Es la versión que se usa para ejecutar el sistema con un negocio real.
+
+### 03 Sistema_ Vision Completa
+
+Clon de la carpeta 02 donde se añaden las **decisiones** que se toman en cada paso. Para cada decisión concreta del ejemplo (qué servicios se eligen, qué zonas se cubren, qué URLs se crean, qué prioridades se asignan), se indica de qué fuente viene: Framework GMB Crush, Competidores, Datos de búsqueda, Geografía o Input humano. El objetivo es verificar que cada decisión está anclada a una fuente y detectar las que la IA tomó sin respaldo.
+
+### 04 Ejemplos Antiguos
+
+Versiones anteriores del sistema usadas durante el desarrollo:
+
+- **Miami-ABC-Locksmith-V4**: ejemplo original en inglés con ABC Locksmith en Miami (13 pasos)
+- **Cerrajeros-Madrid-V5**: primera versión en español con Cerrajeros Madrid 24h (13 pasos)
+
+Estas versiones están superadas por la V6.4 de la carpeta 02.
 
 ---
 
 ## Flujo del sistema
 
 ```
-Input → Architecture → URL Matrix → Page Briefs → Internal Links → Schema → Priority → QA → Publish → Track → Optimize
+Input → Architecture → URL Matrix → URL Rules → Page Types → Content Structure → Internal Links → Priority → QA → Production → Pseudocode → Master Prompt → Final System → GBP Alignment
 ```
-
-## Jerarquía de páginas
-
-| Nivel | Tipo de Página | Función |
-| :---: | :--- | :--- |
-| 1 | **Homepage** | Entidad raíz — Root Entity Anchor |
-| 2 | **Service Overview Pages** | Autoridad temática — sin ciudad |
-| 3 | **Location-Based Service Pages** | Conversión local — servicio + ciudad |
-| 4 | **Additional Category Pages** | Soporte de categorías GBP adicionales |
-| 5 | **GeoHub Pages** | Contenedores de silo de ciudad |
-| 6 | **GeoArticle Pages** | Boosters semánticos de cola larga |
-
----
-
-## Estructura del repositorio
-
-```
-repo-1-gmb-crush-original/
-├── README.md                                        ← Este archivo
-├── docs/
-│   ├── 01_paso-1-intake-form.docx                  ← Recolección de datos del negocio
-│   ├── 02_paso-2-formula-maestra-de-arquitectura.docx ← Cálculo del número de páginas
-│   ├── 03_paso-3-matriz-base.docx                  ← Matriz URL operativa
-│   ├── 04_paso-4-url-rules.docx                    ← Reglas de estructura de URLs
-│   ├── 05_paso-5-page-type-rules.docx              ← Plantillas por tipo de página
-│   ├── 06_paso-6-internal-linking-rules.docx       ← Mapa de enlaces internos
-│   ├── 07_paso-7-priority-score.docx               ← Sistema de priorización P1–P4
-│   ├── 08_paso-8-qa-checklist.docx                 ← Control de calidad pre-publicación
-│   ├── 09_paso-9-produccion-en-fases.docx          ← Plan de publicación por fases
-│   ├── 10_paso-10-pseudocodigo-del-sistema.docx    ← Lógica repetible del sistema
-│   ├── 11_paso-11-master-prompt-reutilizable.docx  ← Prompt maestro para IA
-│   ├── 12_paso-12-sistema-final-operativo.docx     ← SOP final integrado
-│   └── gmb_crush_sistema_completo.docx             ← Documento maestro (todos los pasos)
-```
-
----
-
-## Descripción de cada paso
-
-| Paso | Documento | Objetivo |
-| :---: | :--- | :--- |
-| 01 | Intake Form | Recoger NAP, categoría GBP, servicios y ciudades antes de crear ninguna URL |
-| 02 | Fórmula Maestra | Calcular el total de páginas con la fórmula `1 + S + C + (S×C) + (A×C) + (G×S×C)` |
-| 03 | Matriz Base | Convertir la arquitectura en una hoja de cálculo operativa con 18 columnas |
-| 04 | URL Rules | Fijar patrones de URL por tipo de página y reglas anti-canibalización |
-| 05 | Page Type Rules | Definir H1, metadata, schema, word count y CTAs por tipo de página |
-| 06 | Internal Linking | Construir silos de ciudad y servicio mediante enlaces internos estructurados |
-| 07 | Priority Score | Puntuar páginas (1–30) para decidir el orden de publicación |
-| 08 | QA Checklist | Verificar cada página antes de publicar (URL, schema, NAP, CTA, enlaces) |
-| 09 | Producción en Fases | Publicar por fases: Entity Foundation → Local Conversion → Semantic Expansion → Optimization |
-| 10 | Pseudocódigo | Expresar el sistema como lógica repetible y automatizable |
-| 11 | Master Prompt | Prompt maestro para generar arquitecturas GMB Crush con IA |
-| 12 | Sistema Final | SOP integrado de 20 pasos desde intake hasta optimización continua |
-
----
 
 ## Fórmula de arquitectura
 
@@ -83,21 +49,6 @@ Donde:
   G = GeoArticles por servicio × ciudad
 ```
 
-**Ejemplo (ABC Locksmith):** 1 + 5 + 5 + (5×5) + (1×5) + (3×5×5) = **111 páginas**
-
 ---
 
-## Reglas no negociables
-
-- No crear páginas sin función clara.
-- No mezclar servicios en una landing local.
-- No mezclar ciudades en una landing local.
-- No crear categorías adicionales duplicadas.
-- No publicar artículos antes que sus páginas comerciales.
-- No fingir ubicación física.
-- No dejar páginas huérfanas.
-- No publicar sin schema, CTA, enlaces internos ni QA aprobado.
-
----
-
-*Sistema desarrollado por GMB Crush. Para la versión con mayor detalle operativo, ver Repo 2.*
+*Sistema desarrollado siguiendo la metodología GMB Crush.*
